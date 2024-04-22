@@ -1,8 +1,9 @@
-require("dotenv").config() // This line loads the environment variables from the .env file
+import dotenv from "dotenv"
+import express from "express"
+import axios from "axios"
+import cors from "cors"
 
-const express = require("express")
-const axios = require("axios")
-const cors = require("cors")
+dotenv.config() 
 
 const app = express()
 const PORT = 3000
