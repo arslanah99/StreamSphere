@@ -1,9 +1,7 @@
-import dotenv from 'dotenv';
-import express from 'express';
-import axios from 'axios';
-import cors from 'cors';
-
-dotenv.config();
+const express = require('express');
+const axios = require('axios');
+const cors = require('cors');
+const dotenv = require('dotenv').config(); // This also immediately calls the config function to load .env variables
 
 const app = express();
 const PORT = 3000;
