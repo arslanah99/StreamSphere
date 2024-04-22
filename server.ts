@@ -3,8 +3,6 @@ const axios = require('axios');
 const cors = require('cors');
 const dotenv = require('dotenv').config(); // This also immediately calls the config function to load .env variables
 
-dotenv.config();
-
 const app = express();
 const PORT = 3000;
 
