@@ -1,6 +1,6 @@
 // prettier-ignore
 {
-  "extends": "@tsconfig/react-native/tsconfig.json",     /* Recommended React Native TSConfig base */
+  // Remove the line that extends the non-existent file '@tsconfig/react-native/tsconfig.json'
   "compilerOptions": {
     "jsx": "react",
     "allowSyntheticDefaultImports": true,
